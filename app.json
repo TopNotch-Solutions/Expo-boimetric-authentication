@@ -9,7 +9,10 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist":{
+        "NSFaceIDUsageDescription": "This app uses FaceID, TouchID and PassCode to verify the user's identity and protects sensitive data enhancing security."
+      }
     },
     "android": {
       "adaptiveIcon": {
