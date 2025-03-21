@@ -65,6 +65,7 @@
 
 
 import React, { useState, useEffect } from "react";
+import { StatusBar } from 'expo-status-bar';
 import { 
   View, 
   Text, 
@@ -126,6 +127,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+       <StatusBar style="dark" />
       {isAuthenticated ? (
         <Text style={styles.successText}>✅ Authenticated Successfully!</Text>
       ) : (
